@@ -7,79 +7,77 @@
   height: 300px;
 }
 
-
-
-
 h2 {
   margin-left: 130px;
   padding-top: 100px;
   color: white;
 }
 
-
-section{
-  margin-top:-150px;
+section {
+  margin-top: -150px;
   margin-left: auto;
   margin-right: auto;
 }
 
-img{
+img {
   margin-left: 70px;
 }
 
-.middle-photo{
-  display:inline-block;
+.middle-photo {
+  display: inline-block;
   max-width: 400px;
   width: 100%;
 }
 
-.building_photo{
-  display:inline-block;
+.building_photo {
+  display: inline-block;
   max-width: 300px;
   width: 100%;
   margin-top: 100px;
 }
-.text_3{
-  background-color: #FFFFFF;
+.text_3 {
+  background-color: #ffffff;
   border-radius: 12px;
-  opacity:0,2;
-
+  opacity: 0, 2;
 }
-.box{
+.box {
   position: relative;
-  float:left;
+  float: left;
   margin-left: 70px;
 }
 
-.text{
-  
+.text {
   max-width: 260px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 12px;
-  color:black;
-  opacity:0.8;
+  color: black;
+  opacity: 0.8;
   padding: 5px;
   position: absolute;
-  top:290px;
-  left:86px;
+  top: 290px;
+  left: 86px;
 }
-.text_1{
+.text_1 {
   max-width: 300px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 12px;
-  color:black;
-  opacity:0.8;
+  color: black;
+  opacity: 0.8;
   padding: 6px;
   position: absolute;
-  top:250px;
-  left:115px;
+  top: 250px;
+  left: 115px;
 }
 .dot {
-  display: block;
+  display: flex;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: #bbb;
-  margin: 10px 0;
-
+  flex-direction: row;
+}
+.burti {
+  display: flex;
+  justify-content: right;
+  margin-left: 10px;
 }
