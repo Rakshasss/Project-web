@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tavi {
+  background-color: blue;
+  height: 300px;
+}
+
+h2 {
+  margin-left: 130px;
+  padding-top: 100px;
+  color: white;
+}
